@@ -57,7 +57,7 @@ function setup() {
   replay.addImage("gameover", replayimg); 
   replay.visible = false ; 
   
-  trex = createSprite(50, 180 ,20,50);
+  trex = createSprite(80, 180 ,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided" , trex_collided)
   trex.scale = 0.5;
